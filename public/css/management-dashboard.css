@@ -1,0 +1,97 @@
+.dashboard-container {
+    padding: 20px;
+}
+
+.dashboard-header {
+    margin-bottom: 30px;
+}
+
+.dashboard-header h2 {
+    font-size: 2rem;
+    color: #2196f3;
+}
+
+.dashboard-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.overview-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Indicate the card is interactive */
+}
+
+.stat-card h4 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.stat-card p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2196f3;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow for hover effect */
+}
+
+.recent-transactions {
+    margin-top: 30px;
+}
+
+.recent-transactions h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.transactions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.transaction {
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-info {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.transaction-status span {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.status-pending {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.status-completed {
+    background-color: #4caf50;
+    color: #fff;
+}

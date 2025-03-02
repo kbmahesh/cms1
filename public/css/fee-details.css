@@ -1,0 +1,127 @@
+/* Fee Details Page Styles */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #1976d2;
+}
+
+.fee-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.fee-card {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    min-width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.fee-card:hover {
+    transform: translateY(-5px);
+}
+
+.fee-card h3 {
+    margin-bottom: 20px;
+    color: #2196f3;
+    font-size: 1.5rem;
+}
+
+.fee-summary-info p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.breakdown-card {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.breakdown-card table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.breakdown-card table th, .breakdown-card table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.breakdown-card table th {
+    background-color: #2196f3;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.breakdown-card table td {
+    background-color: #f4f4f4;
+    font-size: 1rem;
+}
+
+.breakdown-card table td a {
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #4caf50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.breakdown-card table td a:hover {
+    background-color: #388e3c;
+}
+
+.action-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.action-buttons .btn {
+    text-decoration: none;
+    color: #fff;
+    background: #2196f3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.action-buttons .btn:hover {
+    background: #1976d2;
+}
+
+.action-buttons .btn-secondary {
+    background: #757575;
+}
+
+.action-buttons .btn-secondary:hover {
+    background: #616161;
+}
+
+.btn{
+    background-color: rgb(76, 175, 80);
+    padding: 8px 15px;
+    color: white;
+    border: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(56, 142, 60);
+}

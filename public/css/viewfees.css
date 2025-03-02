@@ -1,0 +1,81 @@
+/* Table Styling */
+.table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background: #007bff;
+    color: white;
+    text-transform: uppercase;
+    padding: 12px;
+    text-align: center;
+}
+
+.table td {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.text-success {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.text-danger {
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.text-warning {
+    font-weight: bold;
+    color: #ffc107; /* Yellow */
+}
+
+
+.badge {
+    font-size: 14px;
+    padding: 8px;
+}
+
+/* Filter Section Styling */
+.filter-container {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap:10px;
+}
+
+/* Input and Dropdown Styling */
+.filter-container .form-control {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* Button Styling */
+.filter-container .btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filter-container .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.filter-container .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.filter-container .btn:hover {
+    opacity: 0.85;
+}
